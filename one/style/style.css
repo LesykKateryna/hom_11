@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    overflow: inherit;
+    float: none;
+    max-width: 1000px;
+}
+section {
+    margin: 5px;
+    width: 1500px;
+    height: 864px;
+    background-color: #b07cf7;
+    
+    
+
+}
+
+
+h1 {
+    
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+     font-size: 90px;
+     line-height: 25px;
+     font-weight: 700;
+     color: #ffffff;
+}
+
+.first {
+    text-align: center;
+font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    width: 400px;
+    padding-left: 37%;
+}
+
+img {
+    width: 370px;
+    height: 310px;
+    background-color: #fbfbf7;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+
+.next {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.mini {
+    position: absolute; 
+    top: 15px;
+     width: 60px;
+    height: 60px;
+    opacity: 0.7;
+    background-color: #262626;
+     border-radius: 5px; 
+     
+}
+h2{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+     line-height: 25px;
+     font-weight: 500px;
+    color: #ffffff;
+    width: 300px;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.texty{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 5px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+button {
+
+     font-family: Raleway;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 120%;
+    left: 44%;
+}
+
+button:hover{
+    color: rgb(12, 10, 11);
+    opacity: 0.7s;
+    background-color: darkgrey;
+    transition: 3s;
+}
+a:hover {
+    text-decoration: none;
+    opacity: 50%;
+    color: rgb(12, 10, 11);
+    opacity: 0.7s;
+    
+    transition: 1s;
+}
+
+
+
+
+
